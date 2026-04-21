@@ -16,7 +16,6 @@ panel.
 - Added layered shadow text for the username and `LOCKED` title.
 - Added a framed authentication panel.
 - Styled the password field with square corners, pink borders, and `*` dots.
-- Added a low-battery warning that appears when the battery is at or below 10%.
 - Replaced the personal username with `YOURNAME` for sharing.
 - Replaced the personal avatar with a public placeholder avatar.
 - Added a small install script that backs up the existing Hyprlock config.
@@ -37,7 +36,6 @@ panel.
 - `install.sh`
 - `assets/background.jpg`
 - `assets/avatar.png`
-- `scripts/battery-warning.sh`
 - `screenshots/preview.jpg`
 
 ## Installation
@@ -80,8 +78,6 @@ It also backs up your current Hyprlock config before replacing:
 - Replace `assets/avatar.png` with your own avatar.
 - Replace `assets/background.jpg` with another background.
 - Change the accent color `e93f77` if you want another palette.
-- Change the low-battery threshold with `BATTERY_WARNING_THRESHOLD`, or edit
-  `scripts/battery-warning.sh`.
 - If you copy `hyprlock.conf` manually instead of using `install.sh`, replace
   `__HOME__` with your home directory path.
 
